@@ -31,12 +31,7 @@ The model translates **English sentences** into **French** and includes a **Tkin
 - NumPy
 - Pickle (built-in)
 - Tkinter (built-in for most Python installations)
-
-Install dependencies with:
-```bash
-pip install tensorflow scikit-learn numpy
-
-📊 Dataset
+- 📊 Dataset
 
 The dataset (eng-french.txt) contains English–French sentence pairs.
 
@@ -69,3 +64,9 @@ Language Translation using Machine Learning
 📜 License
 
 This code is for educational purposes only. Original tutorial by DataFlair.
+
+
+Install dependencies with:
+```bash
+pip install tensorflow scikit-learn numpy
+
