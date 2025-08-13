@@ -35,3 +35,37 @@ The model translates **English sentences** into **French** and includes a **Tkin
 Install dependencies with:
 ```bash
 pip install tensorflow scikit-learn numpy
+
+📊 Dataset
+
+The dataset (eng-french.txt) contains English–French sentence pairs.
+
+This project uses the first 10,000 pairs for faster training.
+
+🛠 How to Run
+1️⃣ Train the Model
+python langTraining.py
+
+
+This will:
+
+Parse and preprocess the dataset
+
+One-hot encode the sequences
+
+Train the encoder–decoder LSTM model
+
+Save the trained model and metadata
+
+2️⃣ Launch the Translator GUI
+python LangTransGui.py
+
+
+📚 Learn More
+
+This project is adapted from the DataFlair tutorial:
+Language Translation using Machine Learning
+
+📜 License
+
+This code is for educational purposes only. Original tutorial by DataFlair.
