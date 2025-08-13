@@ -15,3 +15,23 @@ The model translates **English sentences** into **French** and includes a **Tkin
 ---
 
 ## 📂 Project Structure
+├── eng-french.txt # Dataset of English–French sentence pairs
+├── langTraining.py # Script to train the LSTM model
+├── LangTransGui.py # GUI application for translations
+├── training_data.pkl # Pickled training metadata
+├── s2s/ # Saved model files
+└── README.md
+
+---
+
+## ⚙️ Requirements
+- Python 3.8+
+- TensorFlow 2.3+
+- scikit-learn
+- NumPy
+- Pickle (built-in)
+- Tkinter (built-in for most Python installations)
+
+Install dependencies with:
+```bash
+pip install tensorflow scikit-learn numpy
